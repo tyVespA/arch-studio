@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import { League_Spartan } from "@next/font/google";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import PageName from "@/components/PageName";
 
 const leagueSpartan = League_Spartan({
   subsets: ["latin"],
@@ -13,6 +14,7 @@ const leagueSpartan = League_Spartan({
 export default function Home() {
   return (
     <main className={leagueSpartan.className}>
+      <PageName pageName="Home" aria-hidden="true" />
       <Navbar />
       <Hero />
       <h1>test</h1>

@@ -1,0 +1,33 @@
+.pageNameContainer {
+  position: absolute;
+  content: "";
+  left: -50px;
+  top: 0;
+  color: var(--lightGrey);
+}
+
+.pageNameContainer::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 1px;
+  height: 105px;
+  background-color: var(--lightGrey);
+}
+
+.pageName {
+  position: absolute;
+  top: 175px;
+  left: -60px;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 1400px) {
+  .pageNameContainer {
+    left: -80px;
+  }
+}
+
+/* TODO: media query to position it more to the left on desktop */
