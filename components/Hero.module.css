@@ -27,7 +27,7 @@
 
 .description h2 {
   font-size: 96px;
-  max-width: 13ch;
+  max-width: 12ch;
   line-height: 0.8;
   letter-spacing: -2px;
   margin-bottom: 10px;
@@ -36,4 +36,45 @@
 .description p {
   max-width: 43ch;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 770px) {
+  .description {
+    left: 10%;
+  }
+  .description h2 {
+    font-size: 80px;
+  }
+  .description p {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .description h2 {
+    font-size: 90px;
+  }
+  .description p {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .description {
+    left: 7%;
+  }
+  .description h2 {
+    font-size: 48px;
+  }
+  .description p {
+    padding-right: 15px;
+    max-width: 35ch;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    margin-inline: -32px;
+  }
 }
