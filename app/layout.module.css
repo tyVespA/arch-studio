@@ -3,13 +3,13 @@
   margin-inline: auto;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
   .layout {
     margin-inline: 100px;
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 890px) {
   .layout {
     margin-inline: 32px;
   }

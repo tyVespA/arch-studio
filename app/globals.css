@@ -46,6 +46,11 @@ h6 {
 
 /* GLOBAL STYLES */
 
+html,
+body {
+  font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -66,6 +71,11 @@ button {
 }
 
 /* HELPERS */
+
+/* to position PageName absolute */
+main {
+  position: relative;
+}
 
 /* COLORS */
 
