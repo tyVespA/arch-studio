@@ -43,3 +43,37 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* GLOBAL STYLES */
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+}
+
+/* HELPERS */
+
+/* COLORS */
+
+:root {
+  --veryDarkBlue: #1b1d23;
+  --darkGrey: #60636d;
+  --mediumGrey: #7d828f;
+  --lightGrey: #c8ccd8;
+  --veryLightGrey: #eeeff4;
+  --red: #df5656;
+}
