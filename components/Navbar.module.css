@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-block: 55px;
+  gap: 75px;
+}
+
+.navbar {
+  display: flex;
+  gap: 60px;
+  font-size: 1.1rem;
+  color: var(--mediumGrey);
+  font-weight: 700;
+}
+
+.navbar a {
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--veryDarkBlue);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 690px) {
+  .header {
+    justify-content: space-between;
+  }
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
