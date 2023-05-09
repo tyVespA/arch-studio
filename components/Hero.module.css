@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.container::after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  filter: opacity(0.4);
+}
+
+.description {
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20%;
+}
+
+.description h2 {
+  font-size: 96px;
+  max-width: 13ch;
+  line-height: 0.8;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  max-width: 43ch;
+  margin-bottom: 40px;
+}
