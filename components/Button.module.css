@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--veryDarkBlue);
+  color: #fff;
+  padding-block: 25px;
+  padding-inline: 35px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--darkGrey);
+}
+
+.button div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import Button from "./Button";
 
 export default function Hero() {
   return (
@@ -24,7 +25,7 @@ export default function Hero() {
           Project made for an art museum near Southwest London. Project Paramour
           is a statement of bold, modern architecture.
         </p>
-        <button>See</button>
+        <Button linkTo="portfolio">See Our Portfolio</Button>
       </div>
     </div>
   );
