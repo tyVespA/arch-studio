@@ -1,0 +1,42 @@
+.picture {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.picture::after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, #000, #ffffff00);
+  filter: opacity(0.5);
+}
+
+.number,
+.projectName {
+  position: absolute;
+  z-index: 3;
+}
+
+.number {
+  line-height: 1;
+  top: 0px;
+  right: -20px;
+  font-size: 250px;
+  color: #fff;
+  filter: opacity(0.6);
+}
+
+.projectName {
+  bottom: 40px;
+  left: 40px;
+  color: #fff;
+}
+.projectName h4 {
+  font-size: 32px;
+}

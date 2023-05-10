@@ -3,9 +3,11 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import { League_Spartan } from "@next/font/google";
 import Navbar from "@/components/Navbar";
+import Button from "@/components/Button";
 import Hero from "@/components/Hero";
 import PageName from "@/components/PageName";
 import AboutUsBanner from "@/components/AboutUsBanner";
+import FeaturedCard from "@/components/FeaturedCard";
 
 const leagueSpartan = League_Spartan({
   subsets: ["latin"],
@@ -55,6 +57,29 @@ export default function Home() {
       </section>
       <section>
         <AboutUsBanner />
+      </section>
+      <section>
+        <div className={styles.featuresHeader}>
+          <h3>Featured</h3>
+          <Button linkTo="#">See All</Button>
+        </div>
+        <div className={styles.cardsContainer}>
+          <FeaturedCard
+            imageName="image-del-sol"
+            projectName="Image Del Sol"
+            number="1"
+          />
+          <FeaturedCard
+            imageName="image-228b"
+            projectName="228B Tower"
+            number="2"
+          />
+          <FeaturedCard
+            imageName="image-prototype"
+            projectName="Le Prototype"
+            number="3"
+          />
+        </div>
       </section>
       <h1>test</h1>
       <Link href="portfolio">Portfolio</Link>
