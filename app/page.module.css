@@ -63,3 +63,19 @@
     z-index: -1;
   }
 }
+
+.featuresHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 74px;
+}
+
+.featuresHeader h3 {
+  font-size: 72px;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 30px;
+}
