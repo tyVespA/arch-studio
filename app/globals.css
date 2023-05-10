@@ -70,6 +70,14 @@ button {
   border: transparent;
 }
 
+p {
+  color: var(--darkGrey);
+}
+
+section {
+  margin-bottom: 200px;
+}
+
 /* HELPERS */
 
 /* to position PageName absolute */
