@@ -1,0 +1,65 @@
+.header {
+  margin-bottom: 195px;
+}
+
+.welcomeSection {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.welcomeSection::before {
+  content: "Welcome";
+  color: var(--veryLightGrey);
+  position: absolute;
+  top: -150px;
+  font-size: 250px;
+  font-weight: 700;
+  z-index: -1;
+}
+
+.welcomeSection div:first-child {
+  max-width: 45ch;
+  margin-left: 7.5%;
+  margin-top: auto;
+}
+
+.welcomeSection h1 {
+  font-size: 72px;
+  line-height: 0.9;
+  margin-bottom: 40px;
+}
+
+.welcomeSection p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.welcomeSection img {
+  position: relative;
+  z-index: -2;
+}
+
+@media screen and (max-width: 1155px) {
+  .welcomeSection img {
+    display: none;
+  }
+  .welcomeSection::before {
+    font-size: 22vw;
+  }
+  .welcomeSection div:first-child {
+    max-width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .welcomeSection::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 65px;
+    background-color: var(--lightGrey);
+    top: -100px;
+    z-index: -1;
+  }
+}
