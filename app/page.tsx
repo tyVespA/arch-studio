@@ -5,6 +5,7 @@ import { League_Spartan } from "@next/font/google";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import PageName from "@/components/PageName";
+import AboutUsBanner from "@/components/AboutUsBanner";
 
 const leagueSpartan = League_Spartan({
   subsets: ["latin"],
@@ -51,6 +52,9 @@ export default function Home() {
             alt="dettaglio di un edificio"
           />
         </div>
+      </section>
+      <section>
+        <AboutUsBanner />
       </section>
       <h1>test</h1>
       <Link href="portfolio">Portfolio</Link>

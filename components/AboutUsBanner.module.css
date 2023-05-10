@@ -1,0 +1,46 @@
+.aboutUsBanner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.aboutUsBanner picture::after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  filter: opacity(0.4);
+}
+
+.cta {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  margin-left: 10vw;
+}
+
+.cta h2 {
+  font-size: 72px;
+  color: #fff;
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 535px) {
+  .cta h2 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutUsBanner {
+    margin-inline: -32px;
+  }
+}
