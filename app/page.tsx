@@ -79,6 +79,9 @@ export default function Home() {
             projectName="Le Prototype"
             number="3"
           />
+          <div className={styles.featuresMobileBtn}>
+            <Button linkTo="#">See All</Button>
+          </div>
         </div>
       </section>
       <h1>test</h1>

@@ -79,3 +79,27 @@
   display: flex;
   gap: 30px;
 }
+
+.featuresMobileBtn button {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .featuresHeader {
+    margin-bottom: 40px;
+  }
+  .featuresHeader button {
+    display: none;
+  }
+  .featuresMobileBtn button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cardsContainer {
+    flex-direction: column;
+  }
+}
