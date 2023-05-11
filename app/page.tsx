@@ -84,9 +84,6 @@ export default function Home() {
           <Button linkTo="#">See All</Button>
         </div>
       </section>
-      <h1>test</h1>
-      <Link href="portfolio">Portfolio</Link>
-      <Link href="portfolio/test">Portfolio test</Link>
     </main>
   );
 }
