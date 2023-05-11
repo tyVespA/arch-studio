@@ -1,5 +1,6 @@
 .footer {
   position: relative;
+  font-weight: 700;
 }
 .footerContainer {
   display: flex;
