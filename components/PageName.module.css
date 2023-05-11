@@ -13,6 +13,7 @@
 
 .pageName {
   position: absolute;
+  width: 30ch;
   left: 140px;
   text-transform: uppercase;
   letter-spacing: 18px;
