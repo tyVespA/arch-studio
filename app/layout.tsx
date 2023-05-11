@@ -1,5 +1,6 @@
 import "./globals.css";
 import styles from "./layout.module.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={styles.layout}>{children}</body>
+      <body className={styles.layout}>
+        {children} <Footer />
+      </body>
     </html>
   );
 }

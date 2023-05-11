@@ -1,0 +1,32 @@
+.footer {
+  position: relative;
+}
+.footerContainer {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  color: var(--mediumGrey);
+  background-color: var(--veryLightGrey);
+  width: 89%;
+}
+
+.logoContainer {
+  background-color: var(--veryDarkBlue);
+  padding: 80px 52px;
+  margin-right: 20px;
+}
+
+.footer a {
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: var(--veryDarkBlue);
+}
+
+.footerBtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
