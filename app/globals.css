@@ -80,7 +80,7 @@ section {
 
 /* HELPERS */
 
-/* to position PageName absolute */
+/* to set PageName position: absolute */
 header {
   position: relative;
 }

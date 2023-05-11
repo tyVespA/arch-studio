@@ -4,6 +4,7 @@ import styles from "./PageName.module.css";
 export default function PageName({ pageName }) {
   return (
     <div className={styles.pageNameContainer} aria-hidden="true">
+      <div className={styles.line}></div>
       <p className={styles.pageName}>{pageName}</p>
     </div>
   );

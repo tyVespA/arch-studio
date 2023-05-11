@@ -1,31 +1,26 @@
 .pageNameContainer {
   position: absolute;
-  content: "";
-  left: -50px;
-  top: 0;
-  color: var(--lightGrey);
+  left: -100px;
+  top: 50px;
+  transform: rotate(90deg);
 }
 
-.pageNameContainer::after {
-  position: absolute;
-  top: 0;
-  content: "";
-  width: 1px;
-  height: 105px;
+.line {
+  width: 105px;
+  height: 1px;
   background-color: var(--lightGrey);
 }
 
 .pageName {
   position: absolute;
-  top: 175px;
-  left: -60px;
+  left: 140px;
   text-transform: uppercase;
   letter-spacing: 18px;
-  transform: rotate(90deg);
+  transform: translateY(-50%);
 }
 
 @media screen and (min-width: 1400px) {
   .pageNameContainer {
-    left: -80px;
+    left: -120px;
   }
 }
