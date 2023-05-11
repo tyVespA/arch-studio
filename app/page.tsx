@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
-import { League_Spartan } from "@next/font/google";
 import Navbar from "@/components/Navbar";
 import Button from "@/components/Button";
 import Hero from "@/components/Hero";
@@ -9,14 +8,9 @@ import PageName from "@/components/PageName";
 import AboutUsBanner from "@/components/AboutUsBanner";
 import FeaturedCard from "@/components/FeaturedCard";
 
-const leagueSpartan = League_Spartan({
-  subsets: ["latin"],
-  weight: ["500", "700"],
-});
-
 export default function Home() {
   return (
-    <div className={leagueSpartan.className}>
+    <div>
       <header className={styles.header}>
         <PageName pageName="Home" aria-hidden="true" />
         <Navbar />
