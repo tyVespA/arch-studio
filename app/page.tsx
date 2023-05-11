@@ -10,7 +10,7 @@ import FeaturedCard from "@/components/FeaturedCard";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <header className={styles.header}>
         <PageName pageName="Home" aria-hidden="true" />
         <Navbar />
@@ -78,6 +78,6 @@ export default function Home() {
           <Button linkTo="portfolio">See All</Button>
         </div>
       </section>
-    </div>
+    </>
   );
 }
