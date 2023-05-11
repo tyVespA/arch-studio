@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Button({ children, linkTo }) {
   return (
-    <button className={styles.button}>
-      <Link href={linkTo}>
+    <Link href={linkTo}>
+      <button className={styles.button}>
         <div>
           {children}
           <Image
@@ -16,7 +16,7 @@ export default function Button({ children, linkTo }) {
             alt="simbolo freccia"
           />
         </div>
-      </Link>
-    </button>
+      </button>
+    </Link>
   );
 }
