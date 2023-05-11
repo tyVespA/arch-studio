@@ -21,7 +21,7 @@ export default function AboutUsBanner() {
           Small team, <br />
           big ideas
         </h2>
-        <Button linkTo="#">About Us</Button>
+        <Button linkTo="about">About Us</Button>
       </div>
     </div>
   );

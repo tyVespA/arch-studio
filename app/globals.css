@@ -81,7 +81,7 @@ section {
 /* HELPERS */
 
 /* to position PageName absolute */
-main {
+header {
   position: relative;
 }
 

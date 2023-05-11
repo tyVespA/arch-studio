@@ -16,10 +16,10 @@ const leagueSpartan = League_Spartan({
 
 export default function Home() {
   return (
-    <main className={leagueSpartan.className}>
-      <PageName pageName="Home" aria-hidden="true" />
-      <Navbar />
+    <div className={leagueSpartan.className}>
       <header className={styles.header}>
+        <PageName pageName="Home" aria-hidden="true" />
+        <Navbar />
         <Hero />
       </header>
       <section className={styles.welcomeSection}>
@@ -61,7 +61,7 @@ export default function Home() {
       <section>
         <div className={styles.featuresHeader}>
           <h3>Featured</h3>
-          <Button linkTo="#">See All</Button>
+          <Button linkTo="portfolio">See All</Button>
         </div>
         <div className={styles.cardsContainer}>
           <FeaturedCard
@@ -81,9 +81,9 @@ export default function Home() {
           />
         </div>
         <div className={styles.featuresMobileBtn}>
-          <Button linkTo="#">See All</Button>
+          <Button linkTo="portfolio">See All</Button>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

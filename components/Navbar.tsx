@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div className={styles.header}>
-      <Link href="#">
+      <Link href="/">
         <Image
           src="/logo.svg"
           width={97}
@@ -23,9 +23,9 @@ export default function Navbar() {
         />
       </button>
       <nav className={styles.navbar}>
-        <Link href="">Portfolio</Link>
-        <Link href="">About Us</Link>
-        <Link href="">Contact</Link>
+        <Link href="portfolio">Portfolio</Link>
+        <Link href="about">About Us</Link>
+        <Link href="contact">Contact</Link>
       </nav>
     </div>
   );
