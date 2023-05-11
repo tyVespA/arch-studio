@@ -78,9 +78,12 @@
 .cardsContainer {
   display: flex;
   gap: 30px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .featuresMobileBtn button {
+  margin-top: 25px;
   display: none;
 }
 
