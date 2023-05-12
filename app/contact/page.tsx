@@ -44,12 +44,15 @@ export default function page() {
           Details
         </h2>
         <address className={styles.mainOffice}>
-          <h4>Main Office</h4>
-          <p>
-            Mail: <Link href="mailto:archone@mail.com<">archone@mail.com</Link>
-          </p>
-          <p>Address: 1892 Chenoweth Drive TN</p>
-          <p>Phone : 123-456-3451</p>
+          <div>
+            <h4>Main Office</h4>
+            <p>
+              Mail:{" "}
+              <Link href="mailto:archone@mail.com<">archone@mail.com</Link>
+            </p>
+            <p>Address: 1892 Chenoweth Drive TN</p>
+            <p>Phone : 123-456-3451</p>
+          </div>
           <button className={styles.mapLink}>
             <p>View on map</p>{" "}
             <Image
@@ -61,12 +64,15 @@ export default function page() {
           </button>
         </address>
         <address className={styles.secondaryOffice}>
-          <h4>Main Office</h4>
-          <p>
-            Mail: <Link href="mailto:archtwo@mail.com<">archtwo@mail.com</Link>
-          </p>
-          <p>Address : 3399 Wines Lane TX</p>
-          <p>Phone : 832-123-4321</p>
+          <div>
+            <h4>Main Office</h4>
+            <p>
+              Mail:{" "}
+              <Link href="mailto:archtwo@mail.com<">archtwo@mail.com</Link>
+            </p>
+            <p>Address : 3399 Wines Lane TX</p>
+            <p>Phone : 832-123-4321</p>
+          </div>
           <button className={styles.mapLink}>
             <p>View on map</p>{" "}
             <Image
