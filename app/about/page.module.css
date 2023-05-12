@@ -1,0 +1,64 @@
+/* HERO SECTION */
+
+.heroSection {
+  position: relative;
+}
+
+.heroText {
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 60%;
+  padding: 210px 0 0 180px;
+}
+
+.heroSection::before {
+  content: "About";
+  color: var(--veryLightGrey);
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  font-size: 250px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.heroSection h2,
+.heritageSection h2,
+.leadersSection h2 {
+  line-height: 1;
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+
+/* HERITAGE SECTION */
+
+.heritageSection {
+  display: flex;
+  gap: 100px;
+}
+
+.heritageText {
+  max-width: 40%;
+}
+
+.heritageSection p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* LEADERS SECTION */
+
+.leadersSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leadersGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 50px;
+}
