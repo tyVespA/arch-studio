@@ -22,7 +22,7 @@
 }
 
 .number,
-.projectName {
+.projectInfo {
   position: absolute;
   z-index: 3;
 }
@@ -36,20 +36,26 @@
   filter: opacity(0.6);
 }
 
-.projectName {
+.projectInfo {
+  padding-right: 15px;
   bottom: 40px;
   left: 10%;
   color: #fff;
 }
-.projectName h4 {
+.projectInfo h4 {
   font-size: 32px;
+  line-height: 1;
+}
+
+.projectInfo p {
+  color: #fff;
 }
 
 @media screen and (max-width: 540px) {
   .number {
     display: none;
   }
-  .projectName {
+  .projectInfo {
     bottom: 20px;
     left: 20px;
   }

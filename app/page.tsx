@@ -61,17 +61,23 @@ export default function Home() {
           <FeaturedCard
             imageName="image-del-sol"
             projectName="Image Del Sol"
+            anchorText="View All Projects"
             number="1"
+            date=""
           />
           <FeaturedCard
             imageName="image-228b"
             projectName="228B Tower"
+            anchorText="View All Projects"
             number="2"
+            date=""
           />
           <FeaturedCard
             imageName="image-prototype"
             projectName="Le Prototype"
+            anchorText="View All Projects"
             number="3"
+            date=""
           />
         </div>
         <div className={styles.featuresMobileBtn}>
