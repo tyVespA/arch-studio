@@ -48,7 +48,7 @@ export default function portfolio() {
           date="October 2015"
         />
         <FeaturedCard
-          imageName="image-228B"
+          imageName="image-228b"
           projectName="228B Tower"
           anchorText=""
           number=""
