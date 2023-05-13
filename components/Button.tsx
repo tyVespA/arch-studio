@@ -3,7 +3,13 @@ import styles from "./Button.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Button({ children, linkTo }) {
+export default function Button({
+  children,
+  linkTo,
+}: {
+  children: String;
+  linkTo: String;
+}) {
   return (
     <Link href={linkTo}>
       <button className={styles.button}>
