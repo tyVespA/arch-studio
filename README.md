@@ -1,5 +1,6 @@
 ## TODO
 
+- fix arrow in /contact
 - add carousel in /
 - add map in /contact
 - add form in /contact
