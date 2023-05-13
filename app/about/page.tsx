@@ -7,7 +7,7 @@ import EmployeeCard from "@/components/EmployeeCard";
 
 export default function page() {
   return (
-    <div>
+    <>
       <header>
         <PageName pageName="About Us" aria-hidden="true" />
         <Navbar />
@@ -24,7 +24,7 @@ export default function page() {
           />
           <img
             src="/images/about/mobile/image-hero.jpg"
-            alt="persona che lavora al computer"
+            alt="fotografia di un edifico"
           />
         </picture>
         <div className={styles.heroText}>
@@ -108,6 +108,6 @@ export default function page() {
           />
         </div>
       </section>
-    </div>
+    </>
   );
 }
