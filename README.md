@@ -1,3 +1,11 @@
+## TODO
+
+- add carousel in /
+- add map in /contact
+- add form in /contact
+- add missing active states
+- add animations with aos
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
