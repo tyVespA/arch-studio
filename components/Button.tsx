@@ -7,8 +7,8 @@ export default function Button({
   children,
   linkTo,
 }: {
-  children: String;
-  linkTo: String;
+  children: string;
+  linkTo: string;
 }) {
   return (
     <Link href={linkTo}>

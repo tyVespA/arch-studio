@@ -8,9 +8,9 @@ export default function EmployeeCard({
   name,
   role,
 }: {
-  photoName: String;
-  name: String;
-  role: String;
+  photoName: string;
+  name: string;
+  role: string;
 }) {
   return (
     <div className={styles.employeeCard}>

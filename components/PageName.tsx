@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./PageName.module.css";
 
-export default function PageName({ pageName }: { pageName: String }) {
+export default function PageName({ pageName }: { pageName: string }) {
   return (
     <div className={styles.pageNameContainer} aria-hidden="true">
       <div className={styles.line}></div>

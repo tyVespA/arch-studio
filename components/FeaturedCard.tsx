@@ -9,11 +9,11 @@ export default function FeaturedCard({
   number,
   date,
 }: {
-  imageName: String;
-  projectName: String;
-  anchorText: String;
-  number: String;
-  date: String;
+  imageName: string;
+  projectName: string;
+  anchorText: string;
+  number: string;
+  date: string;
 }) {
   return (
     <div className={styles.picture}>
