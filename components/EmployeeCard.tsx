@@ -13,12 +13,10 @@ export default function EmployeeCard({
 }) {
   return (
     <div className={styles.employeeCard}>
-      <Image
+      <img
         src={`/images/about/desktop/${photoName}.jpg`}
-        width={350}
-        height={320}
         alt="primo piano del dirigente"
-      ></Image>
+      />
       <h4>{name}</h4>
       <p>{role}</p>
     </div>
